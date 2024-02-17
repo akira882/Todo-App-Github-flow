@@ -5,7 +5,7 @@ $("#addTodo").click(function () {
   $("input").val("");
 });
 
-$(document).on("change", "input[type=checkbox]", function() {
+$(document).on("c", "input[type=checkbox]", function() {
   if($(this).is(":checked")) {
     $(this).parent().css("text-decoration", "line-through");
   } else {
